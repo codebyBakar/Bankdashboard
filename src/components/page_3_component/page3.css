@@ -1,0 +1,397 @@
+.mainpage3{width: 100%;}
+
+.centermainpage3{padding:10px 30px ;}
+
+.accountvalues{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 15px;}
+
+.accountvalues .value1{height: 120px;
+width: 25%;
+background: white;
+border-radius: 30px;
+padding:15px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.accountvalues .value1:hover{transform: scale(1.07);
+transition: .3s ease;}
+
+.accountvalues .value1 .valueicon1{height: 70px;
+width: 70px;
+background: #fff5d9;
+border-radius: 50%;
+color: #ffbb38;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon1,.valueicon2,.valueicon3,.valueicon4 p{font-size: 30px;}
+
+.accountvalues .value1 .valueicon2{height: 70px;
+width: 70px;
+background: #E7EDFF;
+border-radius: 50%;
+color: #396AFF;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon3{height: 70px;
+width: 70px;
+background: #FFE0EB;
+border-radius: 50%;
+color: #FF82AC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon4{height: 70px;
+width: 70px;
+background: #DCFAF8;
+border-radius: 50%;
+color: #16DBCC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.valuetext p:nth-child(1){font-size: 16px;
+color: #718EBF;
+padding-bottom: 7px;}
+
+.valuetext p:nth-child(2){font-size: 20px;
+    font-weight: 500;
+color: #232323;}
+
+.maindetail2{display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 0;
+color: var(--secondary-gray-clr);
+font-weight: 500;}
+
+.sidedet2{margin-left: 270px;
+}
+
+.maindetail2 h2{font-size: 20px;
+}
+
+.page3cardsflex{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;}
+
+.page3cardsflex .page3card1{height: 240px;
+width: 65%;
+background: white;
+border-radius: 30px;
+padding: 20px;
+}
+
+.transactionflex1{display: flex;
+align-items: center;
+justify-content: space-between;
+padding-bottom: 25px;}
+
+.transactionflex1 .transicon1{height: 50px;
+width: 50px;
+background: #DCFAF8;
+color: #16DBCC;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;}
+
+.transactionflex1 .transicon2{height: 50px;
+width: 50px;
+background: #E7EDFF;
+color: #396AFF;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;}
+
+.transactionflex1 .transicon3{height: 50px;
+width: 50px;
+background: #FFE0EB;
+color: #FF82AC;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;}
+
+.transtext1 h4{font-size: 16px;
+font-weight: 400;
+color: #232323;
+padding-bottom: 7px;}
+
+.transtext1 p{font-size: 15px;
+font-weight: 400;
+color: #718EBF;}
+
+.transtext2 p{font-size: 16px;
+font-weight: 400;
+color: #718EBF;}
+
+.transtext3 p{font-size: 16px;
+font-weight: 400;
+color: #718EBF;}
+
+.transtext4 p{font-size: 16px;
+font-weight: 400;
+color: #718EBF;}
+
+.transtext5 p{font-size: 16px;
+font-weight: 400;
+color: #FE5C73;}
+
+.transtext05 p{font-size: 16px;
+font-weight: 400;
+color: #16DBAA;}
+
+
+
+.page3cardsflex .card01{height: 240px;
+width: 35%;
+border-radius: 30px;
+background: url(./../../images/bluebag.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+padding: 20px;}
+
+.shadow-pg3{position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;}
+
+.card01 .flex1{display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.card01 .flex1 .amaount p:nth-child(1){font-size: 14px;
+color: rgba(255, 255, 255, 0.744);}
+.card01 .flex1 .amaount p:nth-child(2){font-size: 20px;
+color: white;
+font-family: "Lato", sans-serif;}
+
+.card01 .flex2{display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;}
+
+.card01 .flex2 .name p:nth-child(1){
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.744);
+}
+.card01 .flex2 .name p:nth-child(2){
+    font-size: 15px;
+    color: white;
+}
+
+.card01 .flex2 .date p:nth-child(1){
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.744);
+}
+.card01 .flex2 .date p:nth-child(2){
+    font-size: 15px;
+    color: white;
+}
+
+.card01:hover{transform: scale(1.05);
+transition: .3s ease;}
+
+.graphtextpage3{padding: 20px 0;
+    padding-right: 190px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.graphtextpage3 h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+.graphtextpage3-forres{display: none;}
+
+.page3chartsflex{display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.page3chartsflex .page3barchart{height: 370px;
+width: 65%;
+background: white;
+border-radius: 30px;}
+
+.page3chartsflex .page3invoicebox{height:370px ;
+width: 35%;
+background: white;
+border-radius: 30px;
+padding: 20px;}
+
+.page3invoicebox .invoicevalueflex1{display: flex;
+align-items: center;
+justify-content: space-between;
+padding-bottom: 25px;}
+
+.page3invoicebox .invoicevalueflex1 .iconandtext{display: flex;
+    align-items: center;
+gap: 15px;}
+
+.iconandtext .iconbox{height: 60px;
+width: 60px;
+background: #DCFAF8;
+color: #16DBCC;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+
+.iconandtext .iconbox2{height: 60px;
+width: 60px;
+background: #FFF5D9;
+color: #FFBB38;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+.iconandtext .iconbox3{height: 60px;
+width: 60px;
+background: #E7EDFF;
+color: #396AFF;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+.iconandtext .iconbox4{height: 60px;
+width: 60px;
+background: #FFE0EB;
+color: #FF82AC;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+
+.iconandtext .iconbox,.iconbox2,.iconbox3,.iconbox4 p{font-size:30px;
+margin-top: 5px;}
+
+.iconandtext  .textbox p:nth-child(1){font-size: 16px;
+color: #B1B1B1;
+padding-bottom: 5px;
+}
+
+.iconandtext  .textbox p:nth-child(2){font-size: 15px;
+color: #718EBF;
+}
+
+.invoicevalueflex1 .valuetext01 p{font-size: 16px;
+color: #718EBF;}
+
+
+
+     @media (max-width: 768px) {
+
+        .accountvalues{
+flex-wrap: wrap;
+gap: 0px;
+}
+
+.accountvalues .value1{
+width: 45%;
+
+}
+
+
+.page3cardsflex{
+gap: 20px;
+flex-wrap: wrap;}
+
+.page3cardsflex .page3card1{height: 240px;
+width: 100%;
+
+padding: 20px;
+}
+
+.page3cardsflex .card01{height: 240px;
+width: 100%;
+padding: 20px;}
+
+.graphtextpage3 h2:nth-child(2){
+    display: none;
+    
+    
+   }
+   .graphtextpage3{padding-right: 0;}
+   
+
+.graphtextpage3-forres{display: block;
+    padding:  0;
+}
+
+
+.graphtextpage3-forres h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+
+.page3chartsflex{
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.page3chartsflex .page3barchart{height: 300px;
+width: 100%;
+border-radius: 30px;}
+
+
+
+.page3chartsflex .page3invoicebox{height:370px ;
+width: 100%;
+padding: 20px;}
+
+.maindetail2{
+padding: 20px 0;
+}
+
+.sidedet2{margin-left: 270px;
+}
+
+.maindetail2 h2{font-size: 20px;
+}
+
+.transtext2 p{display: none;}
+
+.transtext3 p{display: none;}
+
+.transtext4 p{display: none;}
+
+
+
+.accountvalues .value1 .valueicon1{height: 50px;
+width: 50px;
+}
+
+.accountvalues .value1 .valueicon1,.valueicon2,.valueicon3,.valueicon4 p{font-size: 20px;}
+
+.accountvalues .value1 .valueicon2{height: 50px;
+width: 50px;}
+
+.accountvalues .value1 .valueicon3{height: 50px;
+width: 50px;}
+
+.accountvalues .value1 .valueicon4{height: 50px;
+width: 50px;}
+}

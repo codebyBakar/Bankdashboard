@@ -1,0 +1,131 @@
+.navbar{background:  #ffffff;
+padding: 25px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: .1px solid #918f8f52 ;
+}
+
+.navbar .logo001 h1{font-size: 25px;
+color: var(--secondary-gray-clr);
+font-weight: 500;}
+
+.searchandprof{display: flex;
+align-items: center;
+gap: 20px;}
+
+.searchbar{display: flex;
+align-items: center;
+padding: 10px 25px;
+background: #f5f7fa;
+color: #718ebf;
+gap: 10px;
+border-radius: 20px;}
+
+.searchbar input{border: none;
+outline: none;
+background: transparent;
+width: 90%;}
+
+.searchbar input:focus{outline: none;
+    border: none;
+}
+
+.searchbar input::placeholder{color: #718ebf;
+font-size: 15px;}
+
+.searchbar span{font-size: 20px;}
+
+.navbar .settings{height: 45px;
+width: 45px;
+border-radius:50% ;
+background: #f5f7fa;
+color: #718ebf;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navbar .settings p{font-size: 20px;
+    margin-top: 3px;
+}
+
+.navbar .bellicon{height: 45px;
+width: 45px;
+border-radius:50% ;
+background: #f5f7fa;
+color: var( --secondary-pink-clr);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.profilepic{height: 45px;
+width: 45px;
+border-radius:50% ;
+background: url(./../../../images/profpic.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+
+.res-baricon{display: none;}
+
+
+.forserponsive-search{
+background: #ffffff;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;}
+
+.searchbar-no2{display: flex;
+align-items: center;
+padding: 6px 100px;
+background: #f5f7fa;
+color: #718ebf;
+gap: 7px;
+border-radius: 30px;
+padding-left: 20px;}
+
+.searchbar-no2 input{border: none;
+outline: none;
+background: transparent;
+width: 90%;}
+
+.searchbar-no2 input:focus{outline: none;
+    border: none;
+}
+
+.searchbar-no2 input::placeholder{color: #718ebf;
+font-size: 15px;}
+
+.searchbar-no2 span{font-size: 20px;}
+.sideinnav{display: none;}
+
+ @media (max-width: 768px) {
+.forserponsive-search{display: flex;
+padding-bottom: 15px;}
+
+    .res-baricon{display: flex;}
+
+   .searchbar{display: none;}
+
+ .navbar .settings{display: none;}
+
+   .navbar .bellicon{display: none;}
+
+.sideinnav{display: block;}
+
+  
+
+   .navbar{
+border-bottom: none ;
+padding-bottom: 15px;
+}
+   
+
+ }
+

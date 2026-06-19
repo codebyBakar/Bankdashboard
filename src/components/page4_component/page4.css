@@ -1,0 +1,358 @@
+.mainpage4{width: 100%;}
+
+.centermainpage4{padding: 10px 30px;}
+
+
+.accountvalues{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+padding-top: 10px;}
+
+.accountvalues .value01{height: 120px;
+width: 33%;
+background: white;
+border-radius: 30px;
+padding:15px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.accountvalues .value01:hover{transform: scale(1.07);
+transition: .3s ease;}
+
+.accountvalues .value01 .valueicon01{height: 70px;
+width: 70px;
+background: #DCFAF8;
+border-radius: 50%;
+color: #16DBCC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value01 .valueicon01,.valueicon02,.valueicon03 p{font-size: 30px;}
+
+.accountvalues .value01 .valueicon02{height: 70px;
+width: 70px;
+background: #FFE0EB;
+border-radius: 50%;
+color: #FF82AC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value01 .valueicon03{height: 70px;
+width: 70px;
+background: #E7EDFF;
+border-radius: 50%;
+color: #396AFF;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value01 .valueicon4{height: 70px;
+width: 70px;
+background: #DCFAF8;
+border-radius: 50%;
+color: #16DBCC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.valuetext p:nth-child(1){font-size: 16px;
+color: #718EBF;
+padding-bottom: 7px;}
+
+.valuetext p:nth-child(2){font-size: 20px;
+    font-weight: 500;
+color: #232323;}
+
+
+
+.graphtext04page{padding: 20px 0px ;
+display: flex;
+gap: 260px;
+align-items: center;}
+
+.graphtext04page h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+.graphtext04page-forres{display: none;}
+
+.twolinechartflex{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;}
+
+.yearlylinechart{height: 285px;
+width: 50%;
+background: white;
+border-radius: 30px;
+}
+
+.monthlylinechart{height: 285px;
+width: 50%;
+background: white;
+border-radius: 30px;}
+
+.graphtext04pagedown{padding: 30px 0px ;
+display: flex;
+gap: 430px;
+align-items: center;}
+
+.graphtext04pagedown h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+.graphtext04pagedown-forres{display: none;}
+
+.pahe4downbarsflex{display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;}
+
+.investmentbars{height: 350px;
+width: 60%;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+}
+
+.investbar1{display: flex;
+align-items: center;
+justify-content: space-between;
+height: 32%;
+width: 100%;
+background: white;
+border-radius: 30px;
+padding: 15px;}
+
+.bariconbox{height: 50px;
+width: 50px;
+background: #FFE0EB;
+color: #FF82AC;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+font-size: 23px;}
+
+.bariconbox2{height: 50px;
+width: 50px;
+background: #E7EDFF;
+color: #396AFF;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+font-size: 23px;}
+
+.bariconbox2 p{margin-top: 5px;
+margin-left: 2px;}
+
+.and3{background: #FFF5D9;
+color: #FFBB38;}
+
+
+.bartext1 p:nth-child(1){font-size: 15px;
+padding-bottom: 7px;}
+.bartext1 p:nth-child(2){font-size: 14px;
+color: #718EBF;}
+
+.bartext2 p:nth-child(1){font-size: 15px;
+padding-bottom: 7px;}
+.bartext2 p:nth-child(2){font-size: 14px;
+color: #718EBF;}
+
+
+.bartext3 p:nth-child(1){font-size: 15px;
+color: #16DBCC;
+padding-bottom: 7px;}
+.bartext3 p:nth-child(2){font-size: 14px;
+color: #718EBF;}
+
+.bartext03 p:nth-child(1){font-size: 15px;
+color:  #FE5C73;
+padding-bottom: 7px;
+
+}
+.bartext03 p:nth-child(2){font-size: 14px;
+color:  #718EBF;
+
+}
+
+.pushleft{margin-left: -63px;}
+.pushleft2{margin-right: -57px;}
+
+
+
+.trendingstocks{height: 350px;
+width: 40%;
+background: white;
+border-radius: 30px;}
+
+
+.tablecard {
+  background: #fff;
+  border-radius: 16px;
+  padding: 0px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.customtable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  text-align: left;
+  font-size: 15px;
+  border-bottom: none;
+}
+
+.customtable th {
+  font-weight: 600;
+  font-size: 14px;
+ padding-left: 18px;
+}
+
+
+.customtable td {
+
+  color: #333;
+  font-weight: 500;
+  text-align: left;
+  padding: 13px 10px;
+  
+}
+
+tbody tr td{width: 35%;}
+
+
+.custom-table .positive {
+  color: #16DBCC; 
+}
+
+.custom-table .negative {
+  color: #FE5C73; 
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .accountvalues{
+flex-wrap: wrap;}
+
+.accountvalues .value01{
+width: 100%;
+
+}
+
+
+.graphtext04page h2:nth-child(2){display: none;}
+
+.graphtext04page-forres{display: block;}
+
+.graphtext04page-forres h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+
+.twolinechartflex{
+gap: 20px;
+flex-wrap: wrap;}
+
+.yearlylinechart{height: 285px;
+width: 100%;
+
+}
+
+.monthlylinechart{height: 285px;
+width: 100%;
+}
+
+
+.graphtext04pagedown h2:nth-child(2){display: none;}
+
+.graphtext04pagedown-forres{display: block;}
+
+
+.graphtext04pagedown-forres h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);}
+
+
+.pahe4downbarsflex{flex-wrap: wrap;}
+
+.investmentbars{height: 350px;
+width: 100%;
+
+}
+
+.bartext2{display: none;}
+
+.trendingstocks{height: 350px;
+width: 100%;
+}
+
+.bartext1 p:nth-child(1){font-size: 12px;
+padding-bottom: 7px;}
+.bartext1 p:nth-child(2){font-size: 11px;
+color: #718EBF;}
+
+
+
+.bartext3 p:nth-child(2){font-size: 12px;
+}
+
+
+.bartext03 p:nth-child(2){font-size: 12px;
+
+
+}
+
+
+.tablecard {
+  background: #fff;
+  border-radius: 16px;
+  padding: 0px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.customtable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  text-align: left;
+  font-size: 15px;
+  border-bottom: none;
+}
+
+.customtable th {
+  font-weight: 600;
+  font-size: 14px;
+ padding-left: 18px;
+}
+
+
+.customtable td {
+
+  color: #333;
+  font-weight: 500;
+  text-align: left;
+  padding: 13px 10px;
+  
+}
+
+tbody tr td{width: 35%;}
+
+
+
+
+}

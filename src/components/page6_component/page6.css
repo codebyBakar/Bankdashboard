@@ -1,0 +1,176 @@
+.mainpage6{width: 100%;}
+
+.centermainpage6{padding: 10px 30px;}
+
+.valuetextpg6 p:nth-child(1){font-size: 12px;
+color: #718EBF;
+padding-bottom: 7px;}
+
+.valuetextpg6 p:nth-child(2){font-size: 16px;
+    font-weight: 500;
+color: #232323;}
+
+.accountvalues .value1 .valueicon01{height: 55px;
+width: 55px;
+background: #fff5d9;
+border-radius: 50%;
+color: #ffbb38;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon01,.valueicon02,.valueicon03,.valueicon04 p{font-size: 25px;}
+
+.accountvalues .value1 .valueicon02{height: 55px;
+width: 55px;
+background: #E7EDFF;
+border-radius: 50%;
+color: #396AFF;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon03{height: 55px;
+width: 55px;
+background: #FFE0EB;
+border-radius: 50%;
+color: #FF82AC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.accountvalues .value1 .valueicon04{height: 55px;
+width: 55px;
+background: #DCFAF8;
+border-radius: 50%;
+color: #16DBCC;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+.page6text h2{font-size: 22px;
+font-weight: 550;
+color: var(--secondary-gray-clr);
+padding: 15px 0px;}
+
+.page6form{width: 100%;
+background: white;
+border-radius: 30px;
+height: auto;
+padding: 10px;
+}
+
+
+  .loan-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+
+  }
+
+  .loan-table th {
+        width: 20%;
+
+    color: #718EBF;
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #718ebf63;
+
+  }
+
+  .loan-table td {
+    width: 14%;
+    color: #232323;
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgba(94, 93, 93, 0.137);
+  }
+
+  .loan-table tr:last-child td {
+    font-weight: bold;
+    color: #FE5C73;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+
+ 
+  table tr td:nth-child(6) {
+    color: #232323;
+  }
+
+  .repay-button {
+    background:transparent ;
+    color: #232323;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #232323;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+  }
+
+  .repay-button:hover {
+    color: #1814F3;
+    border:1px solid #1814F3;
+  }
+
+
+@media (max-width: 768px) {
+
+  .valuetextpg6 p:nth-child(1){font-size: 9px;
+color: #718EBF;
+padding-bottom: 7px;}
+
+.valuetextpg6 p:nth-child(2){font-size: 12px;
+    font-weight: 500;
+color: #232323;}
+
+.accountvalues .value1 .valueicon01{height: 45px;
+width: 45px;
+}
+
+.accountvalues .value1 .valueicon01,.valueicon02,.valueicon03,.valueicon04 p{font-size: 20px;}
+
+.accountvalues .value1 .valueicon02{height: 45px;
+width: 45px;
+}
+
+.accountvalues .value1 .valueicon03{height: 45px;
+width: 45px;
+}
+
+.accountvalues .value1 .valueicon04{height: 45px;
+width: 45px;
+}
+
+ .loan-table th {
+      
+    text-align: center;
+  }
+
+.loan-table thead tr th:nth-child(1){display: none;}
+.loan-table thead tr th:nth-child(3){display: none;}
+.loan-table thead tr th:nth-child(4){display: none;}
+.loan-table thead tr th:nth-child(5){display: none;}
+
+tbody tr td:nth-child(1){display: none;}
+tbody tr td:nth-child(3){display: none;}
+tbody tr td:nth-child(4){display: none;}
+tbody tr td:nth-child(5){display: none;}
+
+.page6form{
+height: 65vh;
+
+}
+
+ .loan-table td {
+    width: 14%;
+   
+    padding: 10px;
+    text-align: center;
+  }
+
+}
