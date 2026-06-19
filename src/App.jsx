@@ -19,12 +19,11 @@ function App() {
     <>
 
 
-   <header>
-    <BrowserRouter>
-
+   <BrowserRouter>
 
   <Sidebar />
 
+  <main className="main-content">
 <Router>
          <Route   path="/"  element={<Mainpage/>} />
          <Route   path="/Transactions"  element={<Page2/>} />
@@ -44,9 +43,8 @@ function App() {
 
 
 </Router>
-       
+</main>
    </BrowserRouter>
-   </header>
 
     </>
   )
